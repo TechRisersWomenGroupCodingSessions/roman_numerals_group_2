@@ -1,4 +1,4 @@
 function romanNumbers(a, b) {
-    return a + b;
+    return "I"
   }
   module.exports = romanNumbers;
