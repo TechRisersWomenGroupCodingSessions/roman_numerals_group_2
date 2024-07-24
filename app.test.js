@@ -1,5 +1,5 @@
-const sum = require('./app');
+const romanNumbers = require('./app');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
-});
+test('check that 1 equals I', () => {
+    expect(romanNumbers(1)).toBe('I');
+  });
